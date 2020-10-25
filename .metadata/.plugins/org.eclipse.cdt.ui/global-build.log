@@ -1,0 +1,147 @@
+23:29:16 **** Clean-only build of configuration Debug for project assignment1 ****
+rm -rf even_odd.d assignment1.exe even_odd.o 
+rm: cannot remove `assignment1.exe': Permission denied
+23:29:24 **** Rebuild of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:29:26 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:29:30 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:29:53 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+23:30:30 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+23:32:38 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+23:32:44 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+23:36:26 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+..\even_odd.c: In function 'main':
+..\even_odd.c:20:9: warning: implicit declaration of function 'getche' [-Wimplicit-function-declaration]
+  }while(getche()=='q')
+         ^~~~~~
+..\even_odd.c:22:2: error: expected ';' before 'return'
+  return 0;
+  ^~~~~~
+23:36:58 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+..\even_odd.c: In function 'main':
+..\even_odd.c:20:9: warning: implicit declaration of function 'getche' [-Wimplicit-function-declaration]
+  }while(getche()=='q');
+         ^~~~~~
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+23:38:37 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+..\even_odd.c: In function 'main':
+..\even_odd.c:20:9: warning: implicit declaration of function 'getche' [-Wimplicit-function-declaration]
+  }while(getche()!='q');
+         ^~~~~~
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+23:40:33 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:40:36 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:40:54 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+23:41:33 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+..\even_odd.c: In function 'main':
+..\even_odd.c:10:25: error: invalid type argument of unary '*' (have 'int')
+    printf("%d is odddd",*x);
+                         ^~
+23:41:41 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:42:27 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:42:30 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:42:40 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+23:48:13 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:48:17 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:48:50 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:48:53 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:49:14 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+23:50:03 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+23:50:26 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1

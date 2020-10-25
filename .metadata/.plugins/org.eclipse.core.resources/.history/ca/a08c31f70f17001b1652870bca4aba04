@@ -1,0 +1,8 @@
+#include "stdio.h"
+
+int main(){
+	int x;
+	fflush(stdin);
+	scanf('enter a number%d')
+
+}

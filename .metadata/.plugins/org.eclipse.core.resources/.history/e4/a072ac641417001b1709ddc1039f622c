@@ -1,0 +1,25 @@
+#include "stdio.h"
+
+int main(){
+	int x;
+		fflush(stdin);
+		printf("enter a number \n");
+		scanf("%d",&x);
+		if(x%2)
+		{
+			fflush(stdout);
+			printf("%d is odddd",x);
+
+		}
+		else
+		{
+			fflush(stdout);
+			printf("%d is evenn",x);
+
+		}
+
+	return 0;
+
+
+}
+
