@@ -1,0 +1,24 @@
+/*
+ * isAlphabet.c
+ *
+ *  Created on: Oct 26, 2020
+ *      Author: mahmo
+ */
+
+#include "stdio.h"
+
+void isAlphabet()
+{
+	char c;
+
+	fflush(stdout);
+	printf("enter a character");
+	fflush(stdin);
+	scanf("%c",&c);
+
+	if( (c>= 65 && c<= 90) ||( c >= 141 && c<= 172) )
+	printf("%c is in the alphabet",c);
+	else
+	printf("%c is not in the alphabet",c);
+
+}

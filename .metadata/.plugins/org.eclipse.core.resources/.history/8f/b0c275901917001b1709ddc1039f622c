@@ -11,7 +11,6 @@
 void EvenVsOdd();
 void VowVsCon();
 void Largest();
-void isAlphabet();
 
 
 
