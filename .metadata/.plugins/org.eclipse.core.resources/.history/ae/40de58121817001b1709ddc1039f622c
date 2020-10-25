@@ -22,4 +22,6 @@ void VowVsCon()
 
 	}
 
+	return 0;
+
 }

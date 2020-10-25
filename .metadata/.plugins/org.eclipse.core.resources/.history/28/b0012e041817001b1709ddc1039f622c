@@ -11,9 +11,7 @@
 
 int main()
 {
-Largest();
-
-
+	VowVsCon();
 	return 0;
 
 }

@@ -22,6 +22,7 @@ void EvenVsOdd()
 		printf("%d is even",x);
 		fflush(stdout);
 	}
+	return 0;
 
 }
 
