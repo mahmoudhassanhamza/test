@@ -1,0 +1,16 @@
+/*
+ * headers.h
+ *
+ *  Created on: Oct 26, 2020
+ *      Author: mahmo
+ */
+
+#ifndef HEADERS_H_
+#define HEADERS_H_
+
+void EvenVsOdd();
+void VowVsCon();
+
+
+
+#endif /* HEADERS_H_ */

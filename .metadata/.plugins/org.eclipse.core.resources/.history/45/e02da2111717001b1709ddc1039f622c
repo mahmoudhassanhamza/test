@@ -1,7 +1,6 @@
 #include "stdio.h"
 
-void VowVsCon()
-{
+int main(){
 
 	char x;
 	printf("enter a character \n");
