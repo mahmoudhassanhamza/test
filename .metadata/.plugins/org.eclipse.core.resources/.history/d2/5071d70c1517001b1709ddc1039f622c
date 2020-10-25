@@ -1,0 +1,30 @@
+#include "stdio.h"
+
+int main(){
+
+
+	int x;
+	do{
+		printf("enter a number \n");
+		fflush(stdout);
+
+		fflush(stdin);
+		scanf("%d",&x);
+		if(x%2)
+		{
+			fflush(stdout);
+			printf("%d is odd",x);
+
+		}
+		else
+		{
+			fflush(stdout);
+			printf("%d is even",x);
+
+		}
+	}while(getche()!='q');
+	return 0;
+
+
+}
+

@@ -145,3 +145,117 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
 gcc -o assignment1.exe even_odd.o 
 Info: Nothing to build for assignment1
+23:52:36 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+23:52:51 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+23:54:06 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+..\even_odd.c: In function 'main':
+..\even_odd.c:25:9: warning: implicit declaration of function 'getche' [-Wimplicit-function-declaration]
+  }while(getche()!='q');
+         ^~~~~~
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+23:54:35 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+..\even_odd.c: In function 'main':
+..\even_odd.c:27:9: warning: implicit declaration of function 'getche' [-Wimplicit-function-declaration]
+  }while(getche()!='q');
+         ^~~~~~
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:54:37 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:54:54 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+23:55:31 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+..\even_odd.c: In function 'main':
+..\even_odd.c:28:9: warning: implicit declaration of function 'getche' [-Wimplicit-function-declaration]
+  }while(getche()!='q');
+         ^~~~~~
+gcc -o assignment1.exe even_odd.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file assignment1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:55:40 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -o assignment1.exe even_odd.o 
+23:58:34 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o 
+Info: Nothing to build for assignment1
+00:03:02 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o vowelsVsConsonents.o "..\\vowelsVsConsonents.c" 
+..\vowelsVsConsonents.c: In function 'main':
+..\vowelsVsConsonents.c:9:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+  scanf("%d",&x);
+          ^
+..\vowelsVsConsonents.c:18:10: warning: too many arguments for format [-Wformat-extra-args]
+  {printf("&c is a vowel",x);}
+          ^~~~~~~~~~~~~~~
+..\vowelsVsConsonents.c:20:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("&c is a consonent",x);
+          ^~~~~~~~~~~~~~~~~~~
+gcc -o assignment1.exe even_odd.o vowelsVsConsonents.o 
+vowelsVsConsonents.o: In function `main':
+C:\Users\mahmo\Downloads\KIROLOS_DIPLOMA\New folder\assignment1\Debug/../vowelsVsConsonents.c:3: multiple definition of `main'
+even_odd.o:C:\Users\mahmo\Downloads\KIROLOS_DIPLOMA\New folder\assignment1\Debug/../even_odd.c:3: first defined here
+collect2.exe: error: ld returned 1 exit status
+00:03:30 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o even_odd.o "..\\even_odd.c" 
+gcc -o assignment1.exe even_odd.o vowelsVsConsonents.o 
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+00:04:15 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o vowelsVsConsonents.o "..\\vowelsVsConsonents.c" 
+..\vowelsVsConsonents.c: In function 'main':
+..\vowelsVsConsonents.c:9:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+  scanf("%d",&x);
+          ^
+gcc -o assignment1.exe even_odd.o vowelsVsConsonents.o 
+Info: Nothing to build for assignment1
+00:04:56 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o vowelsVsConsonents.o "..\\vowelsVsConsonents.c" 
+..\vowelsVsConsonents.c: In function 'main':
+..\vowelsVsConsonents.c:9:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+  scanf("%d",&x);
+          ^
+gcc -o assignment1.exe even_odd.o vowelsVsConsonents.o 
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+00:07:09 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o vowelsVsConsonents.o "..\\vowelsVsConsonents.c" 
+..\vowelsVsConsonents.c: In function 'main':
+..\vowelsVsConsonents.c:8:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+  scanf("%d",&x);
+          ^
+gcc -o assignment1.exe even_odd.o vowelsVsConsonents.o 
+00:07:19 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o vowelsVsConsonents.o "..\\vowelsVsConsonents.c" 
+gcc -o assignment1.exe even_odd.o vowelsVsConsonents.o 
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
