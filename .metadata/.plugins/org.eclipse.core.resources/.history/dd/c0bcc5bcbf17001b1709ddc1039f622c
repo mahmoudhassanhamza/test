@@ -12,6 +12,7 @@ void EvenVsOdd();
 void VowVsCon();
 void Largest();
 void isAlphabet();
-void Sum();
+
+
 
 #endif /* HEADERS_H_ */
