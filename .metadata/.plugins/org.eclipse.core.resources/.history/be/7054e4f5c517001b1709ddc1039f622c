@@ -11,7 +11,6 @@
 
 int main()
 {
-/*
 	int x,y;
 	printf("enter a positive number");
 	fflush(stdout);
@@ -26,9 +25,5 @@ int main()
 	y = Factorial(x);
 	printf("Factorial %d is %d",x,y);
 	return 0;
-*/
-	Calculator();
-	return 0;
-
 
 }

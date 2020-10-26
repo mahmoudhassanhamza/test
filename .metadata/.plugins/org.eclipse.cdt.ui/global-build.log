@@ -427,3 +427,80 @@ gcc -o assignment1.exe Largest.o Sum.o even_odd.o isAlphabet.o main.o vowelsVsCo
 Info: Nothing to build for assignment1
 Info: Nothing to build for assignment1
 Info: Nothing to build for assignment1
+20:56:18 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:14:8: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+  int x,y;
+        ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Sum.o "..\\Sum.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Factorial.o "..\\Factorial.c" 
+gcc -o assignment1.exe Factorial.o Largest.o Sum.o even_odd.o isAlphabet.o main.o vowelsVsConsonents.o 
+20:57:03 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o assignment1.exe Factorial.o Largest.o Sum.o even_odd.o isAlphabet.o main.o vowelsVsConsonents.o 
+20:57:08 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Factorial.o "..\\Factorial.c" 
+gcc -o assignment1.exe Factorial.o Largest.o Sum.o even_odd.o isAlphabet.o main.o vowelsVsConsonents.o 
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+20:58:40 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Factorial.o "..\\Factorial.c" 
+gcc -o assignment1.exe Factorial.o Largest.o Sum.o even_odd.o isAlphabet.o main.o vowelsVsConsonents.o 
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+20:59:57 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o assignment1.exe Factorial.o Largest.o Sum.o even_odd.o isAlphabet.o main.o vowelsVsConsonents.o 
+Info: Nothing to build for assignment1
+21:00:26 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o assignment1.exe Factorial.o Largest.o Sum.o even_odd.o isAlphabet.o main.o vowelsVsConsonents.o 
+21:00:57 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o assignment1.exe Factorial.o Largest.o Sum.o even_odd.o isAlphabet.o main.o vowelsVsConsonents.o 
+21:08:28 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculator.o "..\\Calculator.c" 
+..\Calculator.c: In function 'VowVsCon':
+..\Calculator.c:31:21: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  case '+':{printf("%c x+y",x+y);return;}
+                     ^
+..\Calculator.c:32:21: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  case '-':{printf("%c is a consonant",x-y);return;}
+                     ^
+..\Calculator.c:33:21: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  case '*':{printf("%c is a consonant",x*y);return;}
+                     ^
+..\Calculator.c:34:21: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  case '/':{printf("%c is a consonant",x/y);return;}
+                     ^
+..\Calculator.c:36:2: error: 'default' label not within a switch statement
+  default:
+  ^~~~~~~
+..\Calculator.c: At top level:
+..\Calculator.c:41:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+21:12:31 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculator.o "..\\Calculator.c" 
+gcc -o assignment1.exe Calculator.o Factorial.o Largest.o Sum.o even_odd.o isAlphabet.o main.o vowelsVsConsonents.o 
+Info: Nothing to build for assignment1
+Info: Nothing to build for assignment1
+21:13:43 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculator.o "..\\Calculator.c" 
+gcc -o assignment1.exe Calculator.o Factorial.o Largest.o Sum.o even_odd.o isAlphabet.o main.o vowelsVsConsonents.o 

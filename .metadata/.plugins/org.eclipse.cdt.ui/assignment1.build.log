@@ -1,1 +1,7 @@
-Info: Nothing to build for assignment1
+21:13:43 **** Incremental Build of configuration Debug for project assignment1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculator.o "..\\Calculator.c" 
+gcc -o assignment1.exe Calculator.o Factorial.o Largest.o Sum.o even_odd.o isAlphabet.o main.o vowelsVsConsonents.o 
+
+21:13:44 Build Finished (took 850ms)
+

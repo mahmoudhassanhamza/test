@@ -36,8 +36,6 @@ void Sum()
 
 	printf("sum of natural numbers from 0 to %d is %d",x,sum);
 	fflush(stdout);
+
+
 }
-
-
-
-

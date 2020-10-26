@@ -27,8 +27,6 @@ int main()
 	printf("Factorial %d is %d",x,y);
 	return 0;
 */
-	Calculator();
-	return 0;
 
 
 }

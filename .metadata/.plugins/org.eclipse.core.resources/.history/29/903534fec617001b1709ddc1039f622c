@@ -14,7 +14,5 @@ void Largest();
 void isAlphabet();
 void Sum();
 int Factorial(int x);
-void Calculator();
-
 
 #endif /* HEADERS_H_ */
