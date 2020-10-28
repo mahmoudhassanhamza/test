@@ -1,0 +1,46 @@
+Info: Nothing to build for homework3ii
+Info: Nothing to build for homework3ii
+Info: Nothing to build for homework3ii
+17:21:03 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Average.o "..\\Average.c" 
+gcc -o homework3ii.exe Average.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
+17:21:49 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Average.o "..\\Average.c" 
+gcc -o homework3ii.exe Average.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
+17:28:32 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Average.o "..\\Average.c" 
+gcc -o homework3ii.exe Average.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
+17:30:13 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o homework3ii.exe Average.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
+17:31:14 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Average.o "..\\Average.c" 
+gcc -o homework3ii.exe Average.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
+17:31:58 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Average.o "..\\Average.c" 
+gcc -o homework3ii.exe Average.o homework3.o main.o sum.o 
+17:32:17 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Average.o "..\\Average.c" 
+gcc -o homework3ii.exe Average.o homework3.o main.o sum.o 
+17:32:28 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Average.o "..\\Average.c" 
+gcc -o homework3ii.exe Average.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
+17:33:30 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Average.o "..\\Average.c" 
+gcc -o homework3ii.exe Average.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
