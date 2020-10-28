@@ -1,0 +1,16 @@
+#include "stdio.h"
+
+
+
+int main(void)
+{
+	int x = 2;
+	int y =2;
+	switch (x)
+	{
+		case 2: printf("we can");
+		case 3:printf("we can again");
+
+	}
+		return 0;
+}

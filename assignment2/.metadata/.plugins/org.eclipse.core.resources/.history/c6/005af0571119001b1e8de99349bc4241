@@ -1,0 +1,117 @@
+#include "stdio.h"
+#include "headers.h"
+
+
+int main(void)
+{
+	int x,temp;
+	float f1,f2,f3;
+	char c;
+	printf("enter the example number \n1:print \n2:integer print \n3:add \n4:mult \n5:ascii \n6:swap \n7:swap no temp ");
+	fflush(stdout);
+	fflush(stdin);
+	scanf("%d",&x);
+	fflush(stdout);
+	fflush(stdin);
+
+
+
+	switch(x)
+	{
+
+	case 1:
+	{
+		printf("C Programming");
+		fflush(stdout);
+		break;
+	}
+	case 2:
+	{
+		printf("enter and integer");
+		fflush(stdout);
+		fflush(stdin);
+		scanf("%d",&temp);
+		fflush(stdout);
+		fflush(stdin);
+		printf("you entered %d",temp);
+		fflush(stdout);
+		fflush(stdin);
+		break;
+	}
+	case 3:
+	{
+		printf("enter two numbers");
+		fflush(stdout);
+		scanf("%f %f",&f1,&f2);
+		fflush(stdin);
+		printf("%f + %f = %f",f1,f2,f1+f2);
+		break;
+	}
+	case 4:
+	{
+		printf("enter two numbers");
+		fflush(stdout);
+		scanf("%f %f",&f1,&f2);
+		fflush(stdin);
+		printf("%f x %f = %f",f1,f2,f1*f2);
+		break;
+	}
+	case 5:
+	{
+		printf("enter a char");
+		fflush(stdout);
+		scanf("%c",&c);
+		fflush(stdin);
+		printf("ASCII of %c is %d",c,c);
+		fflush(stdout);
+		break;
+	}
+
+	case 6:
+	{
+		printf("enter value of a:\n");
+		fflush(stdout);
+		scanf("%f",&f1);
+		fflush(stdin);
+		printf("enter value of b:\n");
+		fflush(stdout);
+		scanf("%f",&f2);
+		fflush(stdin);
+		f3 = f1;
+		f1 = f2;
+		f2 = f3;
+		printf("after swapping value of a =%d\n",f1);
+		printf("after swapping value of b =%d\n",f2);
+		break;
+	}
+
+	case 7:
+	{
+		printf("enter value of a:\n");
+		fflush(stdout);
+		scanf("%f",f1);
+		fflush(stdin);
+		printf("enter value of b:\n");
+		fflush(stdout);
+		scanf("%f",&f2);
+		fflush(stdin);
+		f1 = f1 + f2;
+		f2 = f2 - f1;
+		f1 = f1 - f2;
+		printf("after swapping value of a =%d\n",f1);
+		printf("after swapping value of b =%d\n",f2);
+		break;
+	}
+
+	default:
+	{
+		printf("enter a valid number");
+
+	}
+
+
+	}
+
+
+	return 0;
+}

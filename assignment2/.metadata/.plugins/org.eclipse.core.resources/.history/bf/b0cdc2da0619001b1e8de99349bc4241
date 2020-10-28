@@ -1,0 +1,29 @@
+#include "stdio.h"
+#include "headers.h"
+
+
+int main(void)
+{
+	int x;
+	printf("enter the function");
+	fflush(stdout);
+	fflush(stdin);
+	scanf("%d",x);
+	fflush(stdout);
+	fflush(stdin);
+
+
+	switch(x)
+	{
+
+	case 1:
+	{
+
+		break;
+	}
+
+	}
+
+
+	return 0;
+}
