@@ -23,7 +23,7 @@ int main(void)
 {
 //
 //	int a[2][2],b[2][2],temp[2][2];
-	int x=3;
+	int x=2;
 //	int i,j,k;
 	switch(x)
 	{
@@ -39,11 +39,6 @@ int main(void)
 		break;
 	}
 
-	case 3:
-	{
-		Transpose();
-		break;
-	}
 
 	}
 

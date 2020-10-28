@@ -11,5 +11,4 @@
 
 void Sum();
 void Average();
-void Transpose();
 #endif /* HEADERS_H_ */

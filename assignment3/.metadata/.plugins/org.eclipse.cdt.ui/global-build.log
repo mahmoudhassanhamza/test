@@ -44,3 +44,42 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Average.o "..\\Average.c" 
 gcc -o homework3ii.exe Average.o homework3.o main.o sum.o 
 Info: Nothing to build for homework3ii
+17:42:29 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Transpose.o "..\\Transpose.c" 
+..\Transpose.c: In function 'Transpose':
+..\Transpose.c:13:18: warning: variable 'b' set but not used [-Wunused-but-set-variable]
+  int a[100][100],b[100][100];
+                  ^
+gcc -o homework3ii.exe Average.o Transpose.o homework3.o main.o sum.o 
+17:43:49 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Transpose.o "..\\Transpose.c" 
+gcc -o homework3ii.exe Average.o Transpose.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
+17:45:01 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Transpose.o "..\\Transpose.c" 
+gcc -o homework3ii.exe Average.o Transpose.o homework3.o main.o sum.o 
+17:45:07 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Transpose.o "..\\Transpose.c" 
+gcc -o homework3ii.exe Average.o Transpose.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
+17:46:44 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Transpose.o "..\\Transpose.c" 
+gcc -o homework3ii.exe Average.o Transpose.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
+17:47:30 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Transpose.o "..\\Transpose.c" 
+gcc -o homework3ii.exe Average.o Transpose.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
+17:47:58 **** Incremental Build of configuration Debug for project homework3ii ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Transpose.o "..\\Transpose.c" 
+gcc -o homework3ii.exe Average.o Transpose.o homework3.o main.o sum.o 
+Info: Nothing to build for homework3ii
+Info: Nothing to build for homework3ii
